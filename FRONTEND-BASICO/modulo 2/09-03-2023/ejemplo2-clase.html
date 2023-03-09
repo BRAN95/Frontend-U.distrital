@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo de formulario</title>
+
+    <style>
+        *,
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            width: 500px;
+            padding: 32px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            margin: 32px auto;
+        }
+
+        form label,
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="submit"] {
+            display: inline-block;
+            /*width:40%;*/
+            padding: 4px 8px;
+            margin: 8px 0;
+        }
+
+        form input[type="radio"] {
+            display: inline-block;
+            margin-left: 8px;
+        }
+
+        .estrella {
+            width: 32px;
+        }
+
+        .caramelo {
+            width: 115px;
+        }
+
+        .bloque {
+            display: block;
+            width: 100%;
+        }
+
+        form label {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        form select {
+            width: 100%;
+        }
+
+        form textarea {
+            width: 100%;
+            height: 96px;
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            margin-top: 32px;
+
+            background-color: #000;
+            border-radius: 5px;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="gracias.html" method="post" target="_blank" name="formularioWeb">
+        <label for="manzana">Escribe tu nombre:</label>
+        <input type="text" placeholder="Aquí va tu nombre" name="nombre" id="manzana" maxlength="30" size="40"
+            required="required">
+
+        <label for="platano">Escribe tu apellido:</label>
+        <input type="text" placeholder="Aquí va tu Apellido" name="apellido" id="platano" maxlength="50" size="40"
+            required="required">
+
+        <label for="uva">Escribe tu e-mail:</label>
+        <input type="email" placeholder="correo@empresa.com" name="correo" id="uva">
+
+        <label for="estrella5" class="bloque">Qué valoración le das al curso de frontend básico?</label>
+        <input type="radio" name="valoracion" value="0" id="estrella0"><label for="estrella0" class="estrella">0</label>
+        <input type="radio" name="valoracion" value="1" id="estrella1"><label for="estrella1" class="estrella">1</label>
+        <input type="radio" name="valoracion" value="2" id="estrella2"><label for="estrella2" class="estrella">2</label>
+        <input type="radio" name="valoracion" value="3" id="estrella3"><label for="estrella3" class="estrella">3</label>
+        <input type="radio" name="valoracion" value="4" id="estrella4"><label for="estrella4" class="estrella">4</label>
+        <input type="radio" name="valoracion" value="5" checked id="estrella5"><label for="estrella5"
+            class="estrella">5</label>
+
+        <label for="" class="bloque">Qué temas te han gustado del curso de frontend básico?</label>
+
+
+        <input type="checkbox" name="tema" class="" value="html" id="alfa">
+        <label for="alfa">HTML</label>
+
+        <input type="checkbox" name="tema" class="" value="css" id="beta">
+        <label for="beta">CSS</label>
+
+        <input type="checkbox" name="tema" class="" value="javascript" id="omega">
+        <label for="omega">javascript</label>
+
+        <label for="" class="bloque">Selecciona tu alineación ideal</label>
+
+        <select name="alienacionIdeal" id="" multiple size="10">
+
+            <option value="messi">Messi</option>
+            <option value="cristiano">Cristiano</option>
+            <option value="chigrinsky">Chigrinsky</option>
+            <option value="sergio ramos">Sergio Ramos</option>
+            <option value="shevchenko">Shevchenko</option>
+
+        </select>
+
+        <label for="" class="bloque">Qué mejorarías de este curso?</label>
+        <textarea name="sugerencias" id="" maxlength="400"></textarea>
+
+
+        <input type="submit" name="enviar" value="Enviar" />
+
+
+
+
+    </form>
+
+</body>
+
+</html>
+<body>
+    
+</body>
+</html>
