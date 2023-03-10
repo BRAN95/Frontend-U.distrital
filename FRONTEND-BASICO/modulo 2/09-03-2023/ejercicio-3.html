@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de pizza</title>
+
+    <style>
+         *{
+	box-sizing:border-box;
+	margin:0;padding:0;
+}
+body{
+    background-image: url(./ejercicio-3/porcion\ pizza.png);
+    background-repeat:unset;
+    background-size:70px;
+}
+form{
+	width:400px;
+	padding:32px;
+	border:1px solid #000;
+	border-radius:10px;
+	margin:32px auto;
+    background-color:burlywood;
+}
+
+
+input[type="text"],select,textarea{
+	display:block;
+	padding:4px 8px;
+	width:100%;
+	margin:8px 0;
+}
+textarea{height:96px;resize:none;}
+
+
+label{
+
+    display: block;
+	margin:8px 0;
+}
+
+.rgpd{display:inline-block;font-weight:normal; width:90%;}
+
+input[type="submit"] {
+            width: 100%;
+            margin-top: 32px;
+
+            background-color: #000;
+            border-radius: 5px;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="gracias.html" method="post" target="_blank" name="formularioWeb">
+
+        <h1>PEDIDO DE PIZZA</h1>
+
+
+        <fieldset class="pizza">
+            <legend><b>La pizza</b></legend>
+
+
+            <label for="" class="bloque"><b>Ingredientes</b></label>
+
+        <label for="alfa">
+            <input type="checkbox" name="como" class="" value="amigo" id="alfa">
+            Queso</label>
+  
+        <label for="beta">
+            <input type="checkbox" name="como" class="" value="googleando" id="beta">
+            Pimiento</label>
+
+        <label for="omega">
+            <input type="checkbox" name="como" class="" value="buzoneo" id="omega">
+            Cebolla</label>
+ 
+        <label for="delta">
+            <input type="checkbox" name="como" class="" value="otros" id="delta">
+            Champiñones</label>
+
+        
+
+        <label for="" class="bloque"><b>Tamaño</b></label>
+
+        <label for="alfa">
+                <input type="radio" name="como" class="" value="amigo" id="alfa">
+                Pequeña</label>
+      
+        <label for="beta">
+                <input type="radio" name="como" class="" value="googleando" id="beta">
+                Mediana</label>
+    
+        <label for="omega">
+                <input type="radio" name="como" class="" value="buzoneo" id="omega">
+                Grande</label>
+     
+        </fieldset>
+
+
+        <fieldset>
+            <legend><b>Datos de entrega</b></legend>
+
+            <label for="manzana">Nombre:</label>
+        <input type="text" placeholder="Nombre completo" name="nombre" id="manzana" maxlength="30" size="40"
+            required="required">
+
+        <label for="platano">Direccion:</label>
+        <input type="text" placeholder="calle 10A # 12C-13" name="numero" id="platano" maxlength="60" size="40"
+            required="required">
+
+        <label for="uva">Numero:</label>
+        <input type="number" placeholder="Tu numero" name="correo" id="uva" required="required">
+
+
+        <label for="" class="bloque">Instrucciones especiales</label>
+        <textarea name="mesaje" id="" maxlength="300"></textarea>
+        </fieldset>
+
+
+        <fieldset>
+            <legend><b>Método de pago</b></legend>
+               <select>
+                  <option>Efectivo</option>
+                  <option>VISA</option>
+                  <option>Bizum</option> 
+               </select>
+        </fieldset>
+
+        
+        
+        <input type="checkbox" name="rgpd" class="" value="rgpd" id="legal" required="required">
+        <label for="legal" class="rgpd">He leido y acepto el <a href="">aviso legal y la politica de privacidad</a> </label>
+
+        <input type="submit" name="enviar" value="ok" />
+
+    </form>
+</body>
+</html>
