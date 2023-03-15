@@ -1,0 +1,63 @@
+/* Define look of the table */
+table {
+    border-width: 3px;
+    background-color: #52E396;
+}
+
+tr,
+td {
+    padding: 2px;
+}
+
+/* border-style example classes */
+.b1 {
+    border-style: none;
+}
+
+.b2 {
+    border-style: hidden;
+}
+
+.b3 {
+    border-style: dotted;
+    border-top: 1px solid #000;
+}
+
+.b4 {
+    border-style: dashed;
+}
+
+.b5 {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(56, 149, 28);
+}
+
+.b6 {
+    border-style: double;
+
+    border-left-width: inherit;
+
+    border-top-width: unset;
+}
+
+.b7 {
+    border-style: groove;
+}
+
+.b8 {
+    border-style: ridge;
+}
+
+.b9 {
+    border-style: inset;
+}
+
+.b10 {
+    border-style: outset;
+}
+
+span {
+    border: 1px solid black;
+    background-color: lime;
+  }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./notas-styles-clase.css">
+    <title>Notas de Clase</title>
+</head>
+<body>
+  <!-- Primer ejemplo-->
+    <table>
+        <tr>
+          <td class="b1">none</td>
+          <td class="b2">hidden</td>
+          <td class="b3">dotted</td>
+          <td class="b4">dashed</td>
+        </tr>
+        <tr>
+          <td class="b5">solid</td>
+          <td class="b6">double</td>
+          <td class="b7">groove</td>
+          <td class="b8">ridge</td>
+        </tr>
+        <tr>
+          <td class="b9">inset</td>
+          <td class="b10">outset</td>
+        </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+
+      <!-- Segundo ejemplo-->
+      <p>
+        Usaremos:
+        <span>Hojas</span>
+        <span>de estilo</span>
+        <span>en cascada</span>
+      </p>
+      <!--
+PARSE HTML:
+conversion de html en nodos en un arbol para el DOM
+
+        P
+├─ "Usaremos:"
+├─ SPAN
+|  └─ "Hojas"
+├─ SPAN
+|  └─ "de estilo"
+└─ SPAN
+    └─ "en cascada"
+      -->
+
+      <!--
+  
+COMO SE RENDERIZA UNA PAGINA ?
+1. El navegador carga el HTML (por ejemplo, lo recibe de la red).
+
+2. Convierte el HTML en un DOM (Modelo de objetos del documento). El DOM representa el documento en la memoria del computador. 
+
+3. Entonces, el navegador va a buscar la mayor parte de los recursos vinculados al documento HTML, como las imágenes y los videos incrustados... ¡y también el CSS vinculado! JavaScript aparece un poco más adelante en el proceso.
+
+4. El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de selector. Por ejemplo, elemento, clase, ID, y así sucesivamente. Para cada tipo de selector que encuentre, calcula qué reglas deben aplicarse y a qué nodos en el DOM se les aplica el estilo según corresponda (este paso intermedio se llama árbol de renderización).
+
+5. El árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle las reglas.
+
+6. En la pantalla se muestra el aspecto visual de la página (esta etapa se llama pintura).
+-->
+</body>
+
+</html>
