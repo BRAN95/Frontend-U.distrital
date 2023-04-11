@@ -1,0 +1,80 @@
+Realizar el siguiente Quiz de css
+
+Quiz Css-al finald debes escribir tu nombre - 1mes para hacer el quiz: https://wordwall.net/es/resource/54201697/test-css-atenea 
+
+
+
+4. Actividad del 27/03/2023 primera evidencia del documento de javaScript
+
+1. Hacer un programa que pida 3 notas de un estudiante, calcule el promedio y si este es mayor a 3, muestre un mensjae si está aprobado o no
+ 
+nota: para calcular el promedio, se suman las 3 notas y luego el resultado se divide entre la cantidad de notas sumadas, es decir, 3
+
+
+Actividad 28/03/2023
+
+1. realizar un programa con la introducción de la edad por parte del usuario. NO PERMITIR EDADES MENORES QUE 1 AÑO NI MAYORES QUE 120 AÑOS. El programa debe indicar "Tienes permiso de acceso" si la edad es mayor que 18 años
+
+
+
+Actividad del 29/03/2023
+
+1. Realizar un programa en JS que pida al usuario que introduzca el número del mes (1-12) y envíe un msj indicando si el mes tiene 30 o 31 días  
+
+-47:00 minutos a este programa debe introducir números del 1 al 12 como un elemento de control 
+
+Atividad 30/03/2023
+
+usando do while
+
+Usar un bucle do..while para crear una cadena que contenga letras repetidas. Las letras se entran por teclado y solo podrán ser la X o la Z después de elegir las letras se le ingresa el número de repeticiones que deberá estar entre 1 y 15. 
+Pista: Si elijo X y luego ingreso 10 se mostrará XXXXXXXXXX. Si tecleo z me volverá a pedir letra, y si ingreso 20 me volverá a pedir el número
+
+
+Actividad del 31/03/2023
+
+No hay evidencia
+
+Actividad del 3/04/2023
+
+van a realizar script debe escribir la tabla de multiplicar del número que el usuario teclee. La tabla mostrará en diferentes líneas cada producto y el resultado en la forma a x b = ab.
+
+Recuerden que el salto de linea es el carácter "\n"
+
+Se trata de dibujar un triángulo con asteriscos. El usuario ingresarán un valor entero, el programa escribirá con asteriscos tantas líneas como diga ese número. Cada línea estará formada por una serie de astericos tan larga como diga el número de línea en el que está.
+
+Para separar una línea de la siguiente en console o en alert debes usar "\n". En este ejercicio usa console.log.
+
+Actividad del 4/04/2023
+
+van a hacer un script q pida numeros por pantalla y los guarde en una lista (array), luego recorrer la lista y mostrar los numeros ingresados (EVIDENCIA)
+
+Estamos en la unidad 4 
+
+
+
+
+Link cargar hoja de vida:
+
+Código mujeres: https://www.womenwhocode.com/bogota
+
+Investigar para patrocinio: https://quieroserdigital.com/#/programs
+
+https://ticjob.co/
+https://grupocinte.com/grupocintecolombia/
+https://torre.co/es?r=9Ow4UMpm
+
+
+Slack y https://discord.com/
+Participar en semilleros
+Página para hacer pruebas para el extranjero: https://www.hackerrank.com/dashboard   ---  https://www.cengage.com/mindtap/
+
+
+	
+
+
+
+
+
+
+

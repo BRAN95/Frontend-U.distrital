@@ -1,0 +1,93 @@
+*{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 25% auto;
+}
+
+.target{
+width: 70rem;
+height: 40rem;
+background: linear-gradient(0deg, rgba(3,0,62,1) 0%, rgba(73,73,127,1) 26%, rgba(255,255,255,1) 80%);
+margin: auto;
+border-radius: 20px;
+border: solid 3px black;
+}
+
+.logos{
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: 7rem;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+.logo-distri{
+    scale: 90%;
+}
+
+.logo-todosU{
+    scale: 90%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 32rem;
+}
+
+.container-photo{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-photo img{
+    border-radius: 50%;
+    width: 22rem;
+    height: 30rem;
+}
+
+.container-info{
+    width: 50%;
+    height: auto;
+}
+
+hr{
+    width: 88%;
+    height: 4px;
+    margin: 2px 4px 2.8rem 0px;
+    background-color: black;
+}
+
+h2,li,p{
+    font-size: 2rem;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+li{
+    font-weight: 900;
+}
+
+p{
+    font-weight: 300;
+    margin-top: 4px;
+    margin-bottom: 3rem;
+}
+
+
